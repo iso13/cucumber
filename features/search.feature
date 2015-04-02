@@ -11,3 +11,4 @@ Feature: Search
     And I press "Search"
     Then I should see "Search"
     And I take a screenshot
+    And I wait 3 secs
