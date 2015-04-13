@@ -1,4 +1,6 @@
-
+Given(/^I visit "([^"]*)"$/) do |page_url|
+  visit(page_url)
+end
 
 Given(/^I am on the homepage$/) do
   visit ('http://www.techcrunch.com')
@@ -29,4 +31,6 @@ Given(/^I maximize the browser$/) do
   page.driver.browser.manage.window.maximize
 end
 
-
+Then(/^I refresh page$/) do
+  page.driver.browser.navigate.refresh
+end
