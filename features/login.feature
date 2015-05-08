@@ -15,4 +15,3 @@ Feature: Login
     And I wait 2 seconds
     Then I should see "Netflix"
     And I wait 2 seconds
-    And I
