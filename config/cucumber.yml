@@ -1,0 +1,7 @@
+# config/cucumber.yml
+##YAML Template
+---
+
+firefox: firefox=true
+chrome: chrome=true
+safari: safari=true
