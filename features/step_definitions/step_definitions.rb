@@ -30,3 +30,12 @@ end
 Given(/^I hover "([^"]*)"/) do |menu|
   page.find(menu).hover
 end
+
+Then(/^I click xpath$/) do
+  find(:xpath, "//div[@id='main-content']/div/div[3]/div/div/div/ul[2]/li/div[2]/p").click
+end
+
+Then(/^I select the  "([^"]*)"$/) do |xpath|
+  find(:xpath, xpath).click
+end
+
