@@ -7,5 +7,7 @@ gem "selenium-webdriver"
 gem "rspec", :require => "spec"
 gem "poltergeist"
 gem "factory_girl"
+gem "watir"
+gem "capybara"
 
 # gem "rails"
