@@ -35,3 +35,6 @@ Then(/^I select "([^"]*)" by xpath$/) do |xpath|
   find(:xpath, xpath).click
 end
 
+Given(/^I maximize the browser$/) do
+  page.driver.browser.manage.window.maximize
+end
