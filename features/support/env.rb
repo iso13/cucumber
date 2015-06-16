@@ -6,7 +6,7 @@ require 'selenium-webdriver'
 require 'cucumber'
 
 if ENV['chrome']
-  Capybara.default_driver = :chrome
+  Capybara.default_driver = :firefox
   Capybara.register_driver :chrome do |app|
     options = {
         :js_errors => false,
